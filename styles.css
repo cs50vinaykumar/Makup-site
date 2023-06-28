@@ -1,0 +1,288 @@
+body {
+  background-color: rgb(230, 232, 230);
+}
+
+header {
+  position: relative;
+}
+
+.left {
+  position: relative;
+}
+
+.left li {
+  list-style: none;
+  float: left;
+  margin: 25px;
+}
+
+#text1 {
+
+  font-family: "Great Vibes", cursive;
+ 
+
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 17px;
+  border: none;
+  background-color: none;
+ 
+
+}
+
+#text1:hover {
+ 
+  transform: rotate(5deg);
+  box-shadow: 5px 5px 5px gray;
+  /* transition: all 1.5s ease-in-out .3s; */
+}
+
+.right {
+  margin: 10px;
+  position: absolute;
+  right: 60px;
+  top: -10px;
+}
+
+.right li {
+  list-style: none;
+  display: inline-block;
+  margin: 25px;
+}
+
+.right input {
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+  width: 170px;
+}
+
+.right img {
+  height: 45px;
+  width: 50px;
+  position: absolute;
+  right: -50px;
+  top: 33px;
+}
+
+.right img:hover {
+  cursor: pointer;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  background-color: none;
+}
+.header a:hover {
+  background-color: rgb(223, 217, 217);
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.left-button{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  border-radius: 10px;
+ 
+}
+
+.right-button{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+}
+.btn{
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  
+
+}
+
+.btn:hover{
+  background-color: rgb(206, 204, 204);
+}
+
+.text-area{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+
+.text-area span{
+  color: tomato;
+}
+
+.text-area h3{
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+}
+
+.text-area input{
+  height: 35px;
+  width: 95px;
+  border-radius: 17px;
+  cursor: pointer;
+  text-transform: uppercase;
+ font-weight: bold;
+ position: absolute;
+ top: 203px;
+ left: 10px;
+
+}
+
+.text-area input:hover{
+  background-color: rgb(206, 204, 204);
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 1%;
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  }
+
+  .footer{
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+
+  .footer img{
+  
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 10%;
+  }
+  #one{
+    position: absolute;
+    left: 215px;
+    font-weight: bold;
+  }
+
+  #two{
+    position: absolute;
+    left: 215px;
+    top: 30px;
+  }
+  .text-two img{
+  
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 480px;
+    top: 7%;
+  }
+  #t-one{
+    position: absolute;
+    left: 535px;
+    font-weight: bold;
+  }
+
+  #t-two{
+    position: absolute;
+    left: 535px;
+    top: 30px;
+  }
+
+  .text-three img{
+  
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 835px;
+    top: 7%;
+  }
+  #Th-one{
+    position: absolute;
+    left: 885px;
+    font-weight: bold;
+  }
+
+  #Th-two{
+    position: absolute;
+    left: 885px;
+    top: 30px;
+  }
+
+  .text-four img{
+  
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 1175px;
+    top: 7%;
+  }
+  #f-one{
+    position: absolute;
+    left: 1228px;
+    font-weight: bold;
+  }
+
+  #f-two{
+    position: absolute;
+    left: 1228px;
+    top: 30px;
+  }
+
+  .styling{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+.circle{
+  height: 450px;
+  width: 450px;
+  background-color: #fff;
+  position: absolute;
+  top: 13%;
+  right: 17%;
+  border-radius: 300px;
+}
+
+.circle img{
+  height:500px ;
+  position: absolute;
+  left: 50px;
+
+}
+
+
+#picture-1{
+  border-radius: 300px;
+    position: absolute;
+    top: 1px;
+    left: -22px;
+}
+
+  
+
+  
+
+
+
+
